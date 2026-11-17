@@ -16,3 +16,5 @@ defaults:
   - scope: { path: "", type: posts }
     values: { layout: post }
 exclude: [README.md, STYLE.md, Gemfile, Gemfile.lock]
+webmaster_verifications:
+  google: ZQBlItq1kvlqxagIUV7U3ctIYSYCVAbaFTMWdm0K0FI

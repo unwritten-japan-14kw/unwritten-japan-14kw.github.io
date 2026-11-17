@@ -62,7 +62,7 @@ Ways people get out of it:
 - Your employer may be able to give you a company phone number to list temporarily. Ask HR.
 - Japan Post Bank branches are sometimes more flexible about this too.
 
-We'll cover phone contracts in their own guide.
+More on this in [how to get a phone contract in Japan as a foreigner]({{ site.url }}{% post_url 2026-11-17-phone-contract-japan-foreigner %}).
 
 ## What to say at the bank counter
 

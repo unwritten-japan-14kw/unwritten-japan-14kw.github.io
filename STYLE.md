@@ -26,7 +26,13 @@
 | Japanese term(日本語) | 青 | 窓口で見せたり言ったりする日本語 |
 
 - 1記事あたり、色付きは合計5〜8か所まで。多すぎると目立たなくなる
-- 具体的な書き方(HTML や装飾ボックス)は公開先に合わせて決める
+- 書き方(サイト用):
+  - 要点:`<mark>…</mark>`
+  - 日本語:`<span class="jp">住民税</span>`
+  - ボックス:`<div class="tip" markdown="1">` / `<div class="warning" markdown="1">` の中で、本文の先頭に
+    `<strong class="label">Tip<span class="c">:</span></strong>` または
+    `<strong class="label">Watch out<span class="c">:</span></strong>` を入れる
+    (ラベルを本文として入れることで、Medium に取り込んでも「Tip:」「Watch out:」が残る)
 
 ## 3. 記事の型
 
@@ -42,5 +48,5 @@
 
 - Medium の「Import a story」で取り込む(canonical link が自動で入る)
 - 表は崩れるので、記事ごとに「表の置き換え文」を用意する
-- 赤・緑のボックスは Medium の引用ブロックにする
+- 赤・緑のボックスは Medium の引用ブロックにする(ラベルは自動で入るので、段落を選んで「"」を1回押すだけ)
 - 末尾にサイトへの誘導文を入れ、「Originally published at」は消さない

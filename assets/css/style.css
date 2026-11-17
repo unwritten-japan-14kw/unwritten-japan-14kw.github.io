@@ -79,9 +79,9 @@ mark { background: linear-gradient(transparent 35%, var(--mark-bg) 35%); color: 
 .warning > :last-child, .tip > :last-child { margin-bottom: 0; }
 .warning { background: var(--warn-bg); border-color: var(--warn-line); color: var(--warn-text); }
 .tip { background: var(--tip-bg); border-color: var(--tip-line); color: var(--tip-text); }
-.warning::before, .tip::before { display: block; font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 4px; }
-.warning::before { content: "Watch out"; }
-.tip::before { content: "Tip"; }
+/* Label is real text so it survives Medium import; the colon is hidden on the site only */
+.warning .label, .tip .label { display: block; font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 4px; }
+.label .c { display: none; }
 
 /* Scene opener */
 .scene { font-family: Newsreader, Georgia, serif; font-size: 1.2rem; line-height: 1.6; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 20px 0; }

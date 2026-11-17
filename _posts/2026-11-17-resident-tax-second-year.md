@@ -73,13 +73,13 @@ Because the tax is a year behind, people often leave Japan still owing some.
 - If there's still tax to pay after you leave, you can name a tax representative (<span class="jp">納税管理人</span> *nōzei kanrinin*) in Japan to pay it for you. Ask at city hall before you go.
 
 <div class="warning" markdown="1">
-Unpaid resident tax doesn't just disappear when you leave. <mark>It can cause problems if you apply for a visa or want to move back to Japan later.</mark> Sort it out before your flight.
+<strong class="label">Watch out<span class="c">:</span></strong> Unpaid resident tax doesn't just disappear when you leave. <mark>It can cause problems if you apply for a visa or want to move back to Japan later.</mark> Sort it out before your flight.
 </div>
 
 ## What to do
 
 <div class="tip" markdown="1">
-In your first year, put about 10% of your take-home pay into a separate account every month. When June of year two comes around, the money is already there.
+<strong class="label">Tip<span class="c">:</span></strong> In your first year, put about 10% of your take-home pay into a separate account every month. When June of year two comes around, the money is already there.
 </div>
 
 - [ ] Keep your registered address up to date. Your January 1 address decides where the bill goes.

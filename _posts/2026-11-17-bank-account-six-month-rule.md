@@ -34,7 +34,7 @@ These are general patterns, not guarantees. Policies change, and branches differ
 - **Big city banks and online banks** are often stricter about time in Japan. They're worth trying later, once you've been here six months.
 
 <div class="tip" markdown="1">
-Before you go anywhere, ask your HR department: "Which bank and which branch do other foreign employees use?" One question can save you three wasted trips.
+<strong class="label">Tip<span class="c">:</span></strong> Before you go anywhere, ask your HR department: "Which bank and which branch do other foreign employees use?" One question can save you three wasted trips.
 </div>
 
 ## What to bring
@@ -72,7 +72,7 @@ Most bank staff won't speak much English, and that's fine. Showing this on your 
 ## When you leave Japan
 
 <div class="warning" markdown="1">
-Never sell or give away your bank account or cash card when you leave Japan, even to a friend. Handing over an account is a crime in Japan, and foreign residents have been arrested for it. Accounts sold this way often end up used in scams. Close your account at the bank before you go.
+<strong class="label">Watch out<span class="c">:</span></strong> Never sell or give away your bank account or cash card when you leave Japan, even to a friend. Handing over an account is a crime in Japan, and foreign residents have been arrested for it. Accounts sold this way often end up used in scams. Close your account at the bank before you go.
 </div>
 
 ## Why Japanese people never mention it

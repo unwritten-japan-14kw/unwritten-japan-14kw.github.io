@@ -1,9 +1,10 @@
 ---
-title: "Why your second year in Japan suddenly costs more"
+title: "Japan's resident tax: why your second year suddenly costs more"
+keyword: "resident tax Japan"
 subtitle: "Resident tax runs a year behind. Here's how it works and how to get ready for it."
 categories: live
 last_updated: 2026-11-17
-description: "Your take-home pay dropped in June of your second year in Japan? That's resident tax (jūminzei). Why it arrives late, how much it is, and what to do."
+description: "Your take-home pay dropped in June of your second year in Japan? That's resident tax (jūminzei). Why it arrives a year late, how much it is, and what to do if you're leaving Japan."
 ---
 
 <div class="scene" markdown="1">
@@ -14,7 +15,7 @@ You ask a Japanese coworker what happened. They shrug: "Oh, that's just *jūminz
 
 Nobody warned you because, for Japanese people, there's nothing to warn about. Here's what's going on.
 
-## What resident tax is
+## What is resident tax (jūminzei) in Japan?
 
 Resident tax (<span class="jp">住民税</span> *jūminzei*) is a local tax. It goes to your city or ward and your prefecture, and it's separate from the national income tax you've been paying since your first paycheck.
 
@@ -27,7 +28,7 @@ It comes in two parts:
 
 "Taxable income" is what's left after deductions like social insurance and the basic deduction. So it's well under 10% of your gross salary.
 
-## Why it shows up in year two
+## Why resident tax starts in your second year
 
 Here's the part that catches everyone: <mark>resident tax is charged on last year's income.</mark>
 
@@ -48,13 +49,13 @@ Say you arrive in April 2025 and start work:
 
 Nothing went wrong. The system just runs a year behind.
 
-## How you pay it
+## How to pay resident tax
 
 **If you're employed**, your company takes it out of your salary in 12 monthly chunks, from June to the following May. This is called special collection (*tokubetsu chōshū*). You'll get a slip showing the amount around May or June.
 
 **If you're self-employed, freelance, or your employer doesn't handle it**, your city mails you payment slips in June. This is ordinary collection (*futsū chōshū*). You can usually pay in four installments (often June, August, October and January) or all at once, at a convenience store, a bank, or through an app in many cities.
 
-## So how much is it?
+## How much is resident tax in Japan?
 
 A rough example: you're single, earning ¥4,000,000 a year, with the standard deductions. Your resident tax would come to around ¥170,000 to ¥180,000 a year. That's about ¥14,000 to ¥15,000 a month.
 
@@ -64,7 +65,7 @@ Your real number depends on your deductions, dependents and city. Use this as a 
 
 If you're on National Health Insurance (<span class="jp">国民健康保険</span> *kokumin kenkō hoken*) instead of a company plan, your premiums are also based on last year's income. They often go up in June of year two, at the same time as resident tax.
 
-## If you're leaving Japan
+## Resident tax when you leave Japan
 
 Because the tax is a year behind, people often leave Japan still owing some.
 
@@ -91,7 +92,7 @@ Because the tax is a year behind, people often leave Japan still owing some.
 
 Most Japanese people start full-time work right after school, so they get their one "free" first year at about 22 and forget all about it. After that, resident tax is just one line on their payslip. It isn't a secret. It just never seems worth explaining.
 
-## Quick answers
+## Quick answers about resident tax
 
 **Is resident tax the same as income tax?**
 No. Income tax is national and comes out of your pay from day one. Resident tax is local and runs a year behind.

@@ -1,9 +1,10 @@
 ---
-title: "Can't open a bank account in Japan? The 6-month rule, explained"
+title: "Can't open a bank account in Japan as a foreigner? The 6-month rule, explained"
+keyword: "open bank account Japan foreigner"
 subtitle: "Why banks turn new arrivals away, which ones usually say yes, and what to bring so you only go once."
 categories: live
 last_updated: 2026-11-17
-description: "Just moved to Japan and a bank refused your account? Here's where the 6-month rule comes from, which banks are usually more flexible, and what documents to bring."
+description: "Just moved to Japan and a bank refused to open your account? Where the 6-month rule comes from, which banks are usually easier for foreigners, and what documents to bring."
 ---
 
 <div class="scene" markdown="1">
@@ -14,7 +15,7 @@ The clerk looks at your card, checks a date, and bows apologetically: "I'm very 
 
 You didn't do anything wrong. You just ran into one of the most common walls new arrivals hit. Here's why it happens and how to get around it.
 
-## Where the "6-month rule" comes from
+## Where Japan's 6-month bank rule comes from
 
 Japan's foreign exchange law sorts people into "residents" and "non-residents." A foreigner usually counts as a resident after living in Japan for six months. Until then, many banks treat you as a non-resident, and plenty of them simply don't open accounts for non-residents.
 
@@ -25,7 +26,7 @@ Two things make this more confusing:
 
 So the honest answer is: it depends on the bank, and sometimes on the branch. A "no" at one counter doesn't mean "no" everywhere.
 
-## Which banks are usually more flexible
+## Which banks in Japan are easier for foreigners
 
 These are general patterns, not guarantees. Policies change, and branches differ.
 
@@ -37,7 +38,7 @@ These are general patterns, not guarantees. Policies change, and branches differ
 <strong class="label">Tip<span class="c">:</span></strong> Before you go anywhere, ask your HR department: "Which bank and which branch do other foreign employees use?" One question can save you three wasted trips.
 </div>
 
-## What to bring
+## Documents you need to open a bank account in Japan
 
 Bring everything on this list, even if the website says you only need some of it. Being turned away for one missing paper is very common.
 
@@ -63,13 +64,13 @@ Ways people get out of it:
 
 We'll cover phone contracts in their own guide.
 
-## A few words that help at the counter
+## What to say at the bank counter
 
 Most bank staff won't speak much English, and that's fine. Showing this on your phone is enough to start:
 
 <span class="jp">口座を開設したいです</span> *Kōza o kaisetsu shitai desu.* (I'd like to open an account.)
 
-## When you leave Japan
+## Closing your bank account when you leave Japan
 
 <div class="warning" markdown="1">
 <strong class="label">Watch out<span class="c">:</span></strong> Never sell or give away your bank account or cash card when you leave Japan, even to a friend. Handing over an account is a crime in Japan, and foreign residents have been arrested for it. Accounts sold this way often end up used in scams. Close your account at the bank before you go.
@@ -79,7 +80,7 @@ Most bank staff won't speak much English, and that's fine. Showing this on your 
 
 Most Japanese people opened their first account as kids, often with a parent at the local post office. They've never had to prove how long they've lived anywhere. Ask a Japanese coworker which bank to use and they'll probably just name theirs, without knowing you might be turned away.
 
-## Quick answers
+## Quick answers about bank accounts in Japan
 
 **I was refused once. Should I try another branch?**
 Yes. Branch staff interpret rules differently. Bring proof of work or study and try again, ideally at the branch your company recommends.

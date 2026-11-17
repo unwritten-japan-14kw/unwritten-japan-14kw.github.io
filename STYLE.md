@@ -37,3 +37,10 @@
 5. Why Japanese people don't mention it(日本人が説明しない理由)
 6. FAQ
 7. 免責文と最終更新日
+
+## 4. Medium への転載
+
+- Medium の「Import a story」で取り込む(canonical link が自動で入る)
+- 表は崩れるので、記事ごとに「表の置き換え文」を用意する
+- 赤・緑のボックスは Medium の引用ブロックにする
+- 末尾にサイトへの誘導文を入れ、「Originally published at」は消さない

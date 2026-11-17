@@ -1,0 +1,24 @@
+---
+layout: default
+title: Japan, Unwritten
+---
+<section class="hero">
+  <p class="kicker">Practical guides from a local</p>
+  <h1>The things nobody in Japan explains.</h1>
+  <p class="lede">Not because they're secret. Because to Japanese people, they're too obvious to mention. This site fills in the gaps for anyone visiting, living or working in Japan.</p>
+</section>
+
+<div class="series">
+  <a href="{{ '/visit/' | relative_url }}"><h2>Visit</h2><p>Arriving at Narita, getting around Tokyo, and the small rules that trip up first-timers.</p></a>
+  <a href="{{ '/live/' | relative_url }}"><h2>Live</h2><p>Bank accounts, apartments, taxes, trash day. Everything your first year throws at you.</p></a>
+  <a href="{{ '/work/' | relative_url }}"><h2>Work</h2><p>What "we'll consider it" really means, and the rest of Japanese office life.</p></a>
+</div>
+
+<section class="home-latest">
+  <h2 class="section-title">Latest</h2>
+  <ul class="post-list">
+    {% for post in site.posts limit:10 %}
+    <li><a href="{{ post.url | relative_url }}"><h2>{{ post.title }}</h2>{% if post.subtitle %}<p>{{ post.subtitle }}</p>{% endif %}</a></li>
+    {% endfor %}
+  </ul>
+</section>

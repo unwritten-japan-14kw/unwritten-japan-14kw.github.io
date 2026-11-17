@@ -1,0 +1,18 @@
+title: Japan, Unwritten
+description: The things nobody in Japan explains, because to them it's obvious. Practical guides for visiting, living and working in Japan.
+url: "https://unwritten-japan-14kw.github.io"
+baseurl: ""
+lang: en
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: none
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+permalink: /:categories/:title/
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+exclude: [README.md, STYLE.md, Gemfile, Gemfile.lock]

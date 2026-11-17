@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  {% feed_meta %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}">Japan, <span>Unwritten</span></a>
+      <nav class="nav">
+        <a href="{{ '/visit/' | relative_url }}">Visit</a>
+        <a href="{{ '/live/' | relative_url }}">Live</a>
+        <a href="{{ '/work/' | relative_url }}">Work</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Japan, Unwritten — the things nobody in Japan explains, because to them it's obvious.</p>
+      <p class="fine">Written by a Japanese local based in Chiba. General information only, not legal, tax or immigration advice. Always check with the official office for your situation.</p>
+    </div>
+  </footer>
+</body>
+</html>

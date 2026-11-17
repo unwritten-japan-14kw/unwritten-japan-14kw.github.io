@@ -1,0 +1,115 @@
+:root {
+  --bg: #fbfaf7;
+  --surface: #ffffff;
+  --text: #1d1d1b;
+  --muted: #5f5d57;
+  --line: #e4e1d8;
+  --accent: #b5322a;          /* hinomaru red, used sparingly */
+
+  --warn-bg: #fdecea; --warn-line: #c62828; --warn-text: #7f1d1d;
+  --tip-bg: #e8f5ec;  --tip-line: #2e7d32;  --tip-text: #1b4d22;
+  --mark-bg: #fff1a8; --mark-text: #1d1d1b;
+  --jp: #1f5fbf;      --jp-bg: #eaf1fc;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161614; --surface: #1f1f1c; --text: #ecebe6; --muted: #a8a59c; --line: #34332e;
+    --accent: #ef6b5f;
+    --warn-bg: #3a1d1b; --warn-line: #ef5350; --warn-text: #ffcdd2;
+    --tip-bg: #18301d;  --tip-line: #66bb6a;  --tip-text: #c8e6c9;
+    --mark-bg: #5c4f00; --mark-text: #fff8d6;
+    --jp: #8ab4f8;      --jp-bg: #1c2a40;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161614; --surface: #1f1f1c; --text: #ecebe6; --muted: #a8a59c; --line: #34332e;
+  --accent: #ef6b5f;
+  --warn-bg: #3a1d1b; --warn-line: #ef5350; --warn-text: #ffcdd2;
+  --tip-bg: #18301d;  --tip-line: #66bb6a;  --tip-text: #c8e6c9;
+  --mark-bg: #5c4f00; --mark-text: #fff8d6;
+  --jp: #8ab4f8;      --jp-bg: #1c2a40;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 17px/1.7 Inter, "Noto Sans JP", system-ui, sans-serif;
+}
+.wrap { max-width: 720px; margin: 0 auto; padding: 0 16px; }
+a { color: inherit; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+
+/* Header / footer */
+.site-header { border-bottom: 1px solid var(--line); }
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 18px; padding-bottom: 18px; flex-wrap: wrap; }
+.brand { font-family: Newsreader, Georgia, serif; font-size: 1.35rem; font-weight: 600; text-decoration: none; }
+.brand span { color: var(--accent); }
+.nav { display: flex; gap: 20px; font-weight: 500; font-size: .95rem; }
+.nav a { text-decoration: none; color: var(--muted); }
+.nav a:hover { color: var(--text); }
+.site-footer { border-top: 1px solid var(--line); margin-top: 72px; padding: 28px 0 48px; color: var(--muted); font-size: .9rem; }
+.site-footer .fine { font-size: .8rem; }
+
+/* Headings */
+h1, h2, h3 { font-family: Newsreader, Georgia, serif; line-height: 1.25; font-weight: 600; }
+h1 { font-size: clamp(2rem, 5vw, 2.6rem); margin: .2em 0 .3em; letter-spacing: -.01em; }
+h2 { font-size: 1.6rem; margin: 2.2em 0 .5em; }
+h3 { font-size: 1.2rem; margin: 1.6em 0 .4em; }
+.kicker { text-transform: uppercase; letter-spacing: .12em; font-size: .75rem; font-weight: 600; color: var(--accent); margin: 48px 0 0; }
+.kicker a { text-decoration: none; }
+.subtitle, .lede { font-size: 1.15rem; color: var(--muted); margin: 0; }
+.meta { color: var(--muted); font-size: .85rem; margin-top: 16px; }
+
+/* Body */
+.post-body p, .post-body li { overflow-wrap: anywhere; }
+.post-body hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0; }
+.post-body table { width: 100%; border-collapse: collapse; margin: 1.2em 0; font-size: .95rem; display: block; overflow-x: auto; }
+.post-body th, .post-body td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.post-body th { font-weight: 600; background: var(--surface); }
+.post-body blockquote { margin: 1.4em 0; }
+
+/* ===== Highlight system (see STYLE.md) ===== */
+/* Key point: yellow marker */
+mark { background: linear-gradient(transparent 35%, var(--mark-bg) 35%); color: var(--mark-text); padding: 0 2px; font-weight: 600; }
+/* Japanese term: blue */
+.jp { color: var(--jp); background: var(--jp-bg); border-radius: 4px; padding: 1px 5px; font-family: "Noto Sans JP", Inter, sans-serif; font-weight: 500; white-space: nowrap; }
+/* Warning (red) and Tip (green) boxes */
+.warning, .tip { border-left: 4px solid; border-radius: 0 8px 8px 0; padding: 14px 18px; }
+.warning > :first-child, .tip > :first-child { margin-top: 0; }
+.warning > :last-child, .tip > :last-child { margin-bottom: 0; }
+.warning { background: var(--warn-bg); border-color: var(--warn-line); color: var(--warn-text); }
+.tip { background: var(--tip-bg); border-color: var(--tip-line); color: var(--tip-text); }
+.warning::before, .tip::before { display: block; font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 4px; }
+.warning::before { content: "Watch out"; }
+.tip::before { content: "Tip"; }
+
+/* Scene opener */
+.scene { font-family: Newsreader, Georgia, serif; font-size: 1.2rem; line-height: 1.6; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 20px 0; }
+.scene p { margin: .5em 0; }
+
+/* Checklist */
+.post-body ul.task-list { list-style: none; padding-left: 0; }
+.post-body .task-list-item { padding-left: 32px; position: relative; margin: .5em 0; }
+.post-body .task-list-item input { position: absolute; left: 4px; top: .45em; width: 16px; height: 16px; accent-color: var(--accent); }
+
+.disclaimer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
+
+/* Lists of posts */
+.section-intro { margin-bottom: 32px; }
+.post-list { list-style: none; padding: 0; margin: 0; }
+.post-list li { border-top: 1px solid var(--line); }
+.post-list a { display: block; padding: 20px 0; text-decoration: none; }
+.post-list h2 { font-size: 1.35rem; margin: 0 0 4px; }
+.post-list p { margin: 0; color: var(--muted); }
+.post-list a:hover h2 { color: var(--accent); }
+.empty { color: var(--muted); }
+
+/* Home */
+.hero { padding: 40px 0 8px; }
+.hero h1 { font-size: clamp(2.2rem, 6vw, 3rem); }
+.series { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 32px 0 8px; }
+.series a { display: block; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; text-decoration: none; }
+.series a:hover { border-color: var(--accent); }
+.series h2 { margin: 0 0 4px; font-size: 1.3rem; }
+.series p { margin: 0; color: var(--muted); font-size: .92rem; line-height: 1.5; }
+.home-latest h2.section-title { font-size: 1rem; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); font-family: Inter, sans-serif; margin-top: 48px; }

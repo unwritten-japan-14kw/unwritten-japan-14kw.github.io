@@ -1,0 +1,39 @@
+# Japan, Unwritten — 記事のルール
+
+## 1. 自然な英語で書く(AI翻訳らしさをなくす)
+
+- 短縮形を使う(it's / you'll / don't)。会話のトーンで書く
+- 具体的に書く。金額、時期、場所、実際のシーンを入れる
+- 一文を短く。長い文は2つに分ける
+- 以下の「AIっぽい」表現は使わない
+  - delve into / navigate / in today's world / it's important to note that
+  - Whether you're A or B, ... で始める導入
+  - "Not only... but also" の多用、何でも3つ並べる癖
+  - seamless / robust / unlock / embark / tapestry / bustling / vibrant
+  - ダッシュ(—)の多用
+  - 結びの "In conclusion" や、感想めいたまとめ
+- 日本語の直訳を避ける(例:「〜することが大切です」→ It's important to... と書かず、何をすればいいかを直接書く)
+- 日本語の用語は、最初に出たとき「英語の説明 + 日本語 + ローマ字」で示す
+  例:resident tax (住民税, *jūminzei*)
+
+## 2. 重要な箇所は色を変える
+
+| 種類 | 色 | 使う場面 |
+|---|---|---|
+| Warning(注意) | 赤 | お金を失う、トラブルになる、法的な問題 |
+| Key point(要点) | 黄色のマーカー | 記事の中で一番覚えてほしい一文 |
+| Tip(コツ) | 緑 | 知っていると得をする、楽になる |
+| Japanese term(日本語) | 青 | 窓口で見せたり言ったりする日本語 |
+
+- 1記事あたり、色付きは合計5〜8か所まで。多すぎると目立たなくなる
+- 具体的な書き方(HTML や装飾ボックス)は公開先に合わせて決める
+
+## 3. 記事の型
+
+1. The scene(戸惑うシーン)
+2. What is it?(それは何か)
+3. Why it works this way(日本側の理屈)
+4. What to do(チェックリスト)
+5. Why Japanese people don't mention it(日本人が説明しない理由)
+6. FAQ
+7. 免責文と最終更新日
